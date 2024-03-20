@@ -18,6 +18,7 @@
 #navbar li{
     list-style: none;
     padding:0px 20px;
+    position: relative;
 }
 
 
@@ -28,6 +29,16 @@
     text-decoration: none;
     transition: 0.3s ease;
 }
-#navbar li a:hover{
+#navbar li a:hover, #navbar li a.active{
     color:#088178;
 }
+#navbar li a.active::after, #navbar li a:hover::after{
+    content: "";
+    height: 2px;
+    width:30%;
+    position: absolute;
+    background-color: #088178;
+    bottom:-4px;
+    left:20px;
+}
+
