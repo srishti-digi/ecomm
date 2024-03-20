@@ -42,3 +42,14 @@
     left:20px;
 }
 
+#hero{
+    background-image: url('img/hero.jpg');
+    width:100%;
+    height:90vh;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding:0 80px;
+}
+
+
+
