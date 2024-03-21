@@ -80,6 +80,15 @@ body {
 .section-p1{
     padding:40px 80px;
 }
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
 #feature .fe-box{
     box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
     border:1px solid #cce7d0;
@@ -110,8 +119,19 @@ body {
     box-shadow: 10px 10px 54px rgba(0,0,0,0.03);
 }
 
+#feature .fe-box:nth-child(2) h6{
+    color:blue;
+}
 
-
-
-
-
+#feature .fe-box:nth-child(3) h6{
+    color:green;
+}
+#feature .fe-box:nth-child(4) h6{
+    color:grey;
+}
+#feature .fe-box:nth-child(5) h6{
+    color:red;
+}
+#feature .fe-box:nth-child(6) h6{
+    color:black;
+}
