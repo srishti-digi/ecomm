@@ -377,3 +377,47 @@ font-size: 14px;
     background-color:#041e42;
    background-repeat: no-repeat;
 }
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color:#818ea0;
+}
+#newsletter p{
+    font-weight: 600;
+    font-size: 14px;
+    color:#818ea0;
+
+
+}
+#newsletter p span{
+   
+    color:#ffbd27;
+
+
+}
+#newsletter .form {
+    display: flex;
+    width: 40%;
+
+}
+
+#newsletter input{
+    height:3.125rem;
+    padding:0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border-radius:4px;
+    outline:none;
+    border:1px solid transparent;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    white-space: nowrap;
+    color: #fff;
+    background-color: #088178;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
