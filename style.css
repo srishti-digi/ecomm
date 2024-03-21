@@ -365,4 +365,15 @@ font-size: 14px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 80px;
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url('img/banner/');
+    background-position: 20% 30%;
+    background-color:#041e42;
+   background-repeat: no-repeat;
 }
