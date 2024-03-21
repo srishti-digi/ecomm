@@ -91,8 +91,13 @@ body {
     
 }
 
-#feature .fe-box h2{
-    background-color: pink;
+#feature .fe-box h6{
+    display: inline-block;
+    padding:9px 8px 6px 8px;
+    border-radius: 4px;
+    background-color: #fddde4;
+    line-height: 1;
+    color:#088178;
 
 }
 #feature .fe-box img{
@@ -104,6 +109,9 @@ body {
 
     box-shadow: 10px 10px 54px rgba(0,0,0,0.03);
 }
-#feature .fe-box h6{
-    border
-}
+
+
+
+
+
+
