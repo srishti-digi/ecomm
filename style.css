@@ -512,7 +512,7 @@ footer .copyright{
         top:0px;
        right:-300px;
         width:300px;
-        height:100vh;
+        /* height:100vh; */
         background-color:#e3e6f3;
         box-shadow:0 40px 60px rgba(0,0,0,0.1);
        padding: 80px 0 0 10px;
@@ -662,6 +662,30 @@ footer .copyright{
     height:40vh;
 }
 
+#banner{
+    padding: 0 20px;;
+}
+#banner .banner-box{
+width: 100%;
+}
+
+
+#newsletter .form{
+    width:100%;
+}
+
+#newsletter {
+    padding: 40px 20px;
+}
+
+footer .copyright{
+    text-align: start;
+}
 
 
  }
+
+
+
+
+ 
