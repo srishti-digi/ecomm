@@ -337,7 +337,7 @@ font-size: 14px;
   
     background-image: url('img/banner/b2.png');
     background-repeat: no-repeat;
-    min-width: 30%;
+    min-width: 45%;
     height:30vh;
     background-size: cover;
     background-position: center;
@@ -644,13 +644,16 @@ footer .copyright{
     padding: 20px;
 }
 
-#feature 
+
 #feature .fe-box{
     margin:0 0 15px 0;
     width:155px;
 }
 
+#product1 .pro{
+    width: 100%;
 
+}
 
 
  }
