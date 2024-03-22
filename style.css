@@ -436,7 +436,7 @@ footer .col{
     margin-bottom: 20px;
     }
 
-    footer{
+    footer.logo{
         margin-bottom: 30px;
 
     }footer h4{
@@ -445,7 +445,7 @@ footer .col{
     }
     footer p{
         font-size: 13px;
-        margin: 0px 0px 8px 0px;
+        margin: 0 0 8px 0;
     }
 
     footer a{
@@ -455,3 +455,23 @@ footer .col{
         margin-bottom: 10px;
 
     }
+
+    footer .follow{
+        margin-top: 20px;
+    }
+    footer .follow i
+    {
+    color:#465b52;
+    padding-right:4px;
+    cursor:pointer;
+}
+footer .install .row img{
+    border:1px solid #088178;
+    border-radius: 6px;
+
+
+}
+footer .install  img{
+    margin: 10px 0 15px 0;
+    
+}
