@@ -242,7 +242,7 @@ position: relative;
 
 
 }
-.pro-container{
+#product1 .pro-container{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -491,6 +491,9 @@ footer .copyright{
 }
 
 
+#close{
+    display: none;
+}
 
 
 
@@ -513,6 +516,7 @@ footer .copyright{
         background-color:#e3e6f3;
         box-shadow:0 40px 60px rgba(0,0,0,0.01);
        padding: 80px 0 0 10px;
+       transition: 0.3s;
 
 
     }
@@ -533,7 +537,56 @@ footer .copyright{
        font-size:24px;
        padding-left: 20px;
     }
+    #navbar.active{
+        right:0px;
+    }
+    #close{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color:#222;
+        font-size:24px;
+
+    }
+#lg-bag{
+    display: none;
+}
+
+#close{
+    display: initial;
+}
+#hero{
+
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+}  
+
+#feature {
+  
+    justify-content: center;
+   
+
+}
+#feature .fe-box {
     
+    margin: 15px 15px;
+}
+
+.section-p1{
+    padding: 40px 40px;
+}
+
+#product1 .pro-container{
+    
+    justify-content: center;
+  
+}
+
+
+
+
+
 
 
 
