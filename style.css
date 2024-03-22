@@ -421,3 +421,8 @@ font-size: 14px;
     border-bottom-left-radius: 0;
 
 }
+footer{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
