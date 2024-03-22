@@ -480,5 +480,8 @@ footer .follow i:hover, footer a:hover{
     color: #088178;
 
 }
-
+footer .copyright{
+    text-align: center;
+    width: 100%;
+}
 
